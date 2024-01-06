@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-line {
+    /* background-image: url('./image/accueil.svg'); */
+}
+
+.copyrights {
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    width: 1440px;
+    height: 209px;
+}
