@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "../../pages/HomePage/HomePage";
 import About from "../../pages/About/About";
 import PageNotFound from "../../pages/PageNotFound/PageNotFound";
-import Housing from "../../pages/Housing/Housing";
+import AccomodationSheet from "../../pages/AccomodationSheet/AccomodationSheet";
 
 const AppRoutes = () => {
   return (
@@ -13,7 +13,10 @@ const AppRoutes = () => {
           <Route path="/accueil" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/page-not-found" element={<PageNotFound />} />
-          <Route path="/housing" element={<Housing />} />
+          <Route
+            path="/accomodation-sheet/:id"
+            element={<AccomodationSheet />}
+          />
         </Routes>
       </Router>
     </div>
