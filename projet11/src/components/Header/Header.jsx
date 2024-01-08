@@ -5,10 +5,12 @@ import NavBar from "../NavBar/NavBar";
 
 const Header = () => {
   return (
-    <header>
-      <img src={LogoHeader} alt="Logo" className="logo" />
-      <NavBar />
-    </header>
+    <div className="Header">
+      <header>
+        <img src={LogoHeader} alt="Logo" className="logo" />
+        <NavBar />
+      </header>
+    </div>
   );
 };
 

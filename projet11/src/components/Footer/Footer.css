@@ -1,6 +1,13 @@
+
+.Footer{
+    margin: 20px 0;
+        width: 91%;
+        left: 5%;
+        position: relative;
+}
+
 footer {
     background-color: rgb(0, 0, 0);
-    width: 100%;
     padding-top: 24px;
     text-align: center;
     font-weight: 500;
