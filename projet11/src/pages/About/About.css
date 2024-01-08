@@ -1,0 +1,13 @@
+.list-wrapper {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin-bottom: 88px;
+    width: 90%;
+    position: relative;
+    left: 7%;
+
+    li {
+        margin: 32px 0;
+    }
+}

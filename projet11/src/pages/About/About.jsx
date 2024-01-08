@@ -8,12 +8,24 @@ const About = () => {
       <Header />
       <Banner homePage={false} />
       <ul className="list-wrapper">
-        <Collapse key={"index"} title={"title"} text={"text"} />
-        <Collapse key={"index"} title={"title"} text={"text"} />
-        <Collapse key={"index"} title={"title"} text={"text"} />
-        <Collapse key={"index"} title={"title"} text={"text"} />
-        <Collapse key={"index"} title={"title"} text={"text"} />
-        <Collapse key={"index"} title={"title"} text={"text"} />
+        <li>
+          <Collapse key={"index"} title={"title"} text={"text"} />
+        </li>
+        <li>
+          <Collapse key={"index"} title={"title"} text={"text"} />
+        </li>
+        <li>
+          <Collapse key={"index"} title={"title"} text={"text"} />
+        </li>
+        <li>
+          <Collapse key={"index"} title={"title"} text={"text"} />
+        </li>
+        <li>
+          <Collapse key={"index"} title={"title"} text={"text"} />
+        </li>
+        <li>
+          <Collapse key={"index"} title={"title"} text={"text"} />
+        </li>
       </ul>
       <Footer />
     </div>
